@@ -27,10 +27,10 @@ end
 end
 
 desc 'drop into the Pry console'
-<<<<<<< HEAD
+
 task :console => :environment do
-=======
+
 task :console => :environment do 
->>>>>>> 73ad731530628389c7f4152c1de1c4081bf7be8d
+
   Pry.start
 end 
